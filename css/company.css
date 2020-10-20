@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+#main-contents-form {
+    background-color: #00a0f7;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 10% 15px 15%;
+    position: relative;
+    margin-top: 20%;
+    overflow: unset;
+}
+#main-contents-form::before {
+    content: "";
+    position: absolute;
+    height: auto;
+    background-image: url("./../images/top/top-bttom-after2.svg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position: bottom,center;
+    width: 100%;
+    left: 50%;
+    top: -7%;
+    animation: cloud04 90s linear infinite;
+    min-height: 90px;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+#main-contents-form::after {
+    content: "";
+    position: absolute;
+    height: auto;
+    background-image: url("./../images/top/top-menu-after.svg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: bottom;
+    width: 200%;
+    left: 50%;
+    bottom: -1%;
+    animation: cloud05 140s linear infinite;
+    min-height: 80px;
+}
+#main-contents-form h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+}
+table {
+    width: 100%;
+    max-width: 960px;
+    margin: 50px auto;
+}
+th {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 13px;
+    padding-right: 13px;
+}
+th {
+    text-align: left;
+    font-size: 16px;
+    color: #144c6a;
+    padding-right: 5px;
+    width: 30%;
+    background: #cdecfd;
+    border: solid 1px #00a0f7;
+    vertical-align: middle;
+}
+td {
+    font-size: 16px;
+    border: solid 1px #00a0f7;
+    padding: 13px;
+    vertical-align: middle;
+    background-color: #fff;
+    line-height: 1.6;
+}
+@media only screen and (min-width: 1024px) {
+#main-contents-form {
+    background-color: #00a0f7;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 50px 15px 180px;
+    position: relative;
+    margin-top: 130px;
+	overflow: unset;
+}
+#main-contents-form h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #fff;
+}
+#main-contents-form::before {
+    content: "";
+    position: absolute;
+    height: 90px;
+    background-image: url("./../images/top/top-bttom-after2.svg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-position: bottom;
+    width: 110%;
+    left: 50%;
+    top: -90px;
+    animation: cloud04 90s linear infinite;
+    min-height: auto;
+	z-index: 2;
+}
+}

@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/************************************
+** お問い合わせフォームの入力
+************************************/
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+input[type="file"],
+select,
+textarea,
+.field {
+    display: block;
+    width: 100%;
+    height: 45px;
+    margin-bottom: 0;
+    padding: 0 12px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #eff1f5;
+    box-shadow: none;
+    color: #111;
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 45px;
+    transition: background-color 0.24s ease-in-out;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: transparent;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    font-size: 16px;
+    padding: 20px;
+    color: #fd0404;
+    max-width: 600px;
+}
+.wpcf7-form-control-wrap {
+    position: relative;
+    vertical-align: middle;
+}
+textarea {
+  max-width: 100%;
+  min-height: 120px;
+  line-height: 1.5em;
+  padding: 0.5em;
+  overflow: auto;
+}
+@media(max-width:500px) {
+    .inquiry td,
+    .inquiry th {
+        display: block !important;
+        width: 100% !important;
+        border-top: none !important;
+        -webkit-box-sizing: border-box !important;
+        -moz-box-sizing: border-box !important;
+        box-sizing: border-box !important;
+    }
+    .inquiry tr:first-child th {
+        border-top: 1px solid #d7d7d7 !important;
+    }
+    .inquiry .any,
+    .inquiry .haveto {
+        font-size: 10px;
+    }
+}
+.inquiry th {
+    text-align: left;
+    font-size: 14px;
+    color: #444;
+    padding-right: 5px;
+    width: 30%;
+    background: #f7f7f7;
+    border: solid 1px #d7d7d7;
+	vertical-align: middle;
+	line-height: 2;
+}
+.inquiry td {
+    font-size: 13px;
+    border: solid 1px #d7d7d7;
+    background-color: #fff;
+}
+.entry-content .inquiry tr,
+.entry-content table {
+    border: solid 1px #d7d7d7;
+}
+.haveto {
+    font-size: 7px;
+    padding: 5px;
+    background: #ff9393;
+    color: #fff;
+    border-radius: 2px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 1px;
+}
+.any {
+    font-size: 7px;
+    padding: 5px;
+    background: #93c9ff;
+    color: #fff;
+    border-radius: 2px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 1px;
+}
+#main-contents-form p.file-text {
+    font-size: 12px;
+    color: #444;
+}
+.verticallist .wpcf7-list-item {
+    display: block;
+}
+#formbtn {
+    display: block;
+    padding: 15px;
+    width: 350px;
+    background: #fd8004;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    border-radius: 32px;
+    margin: 25px auto 0;
+    border: 4px solid #fff;
+	transition: all 2s;
+}
+#formbtn:hover {
+    background: #fff;
+    color: #fd8004;
+    border: 4px solid #fd8004;
+	transition: all 2s;
+}
+th {
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 13px;
+}
+td {
+    border-top: 1px solid #ededed;
+    padding: 12px;
+}
+input,
+select,
+textarea {
+    border: 1px solid #dfdfdf;
+    letter-spacing: 1px;
+    margin: 0;
+    max-width: 100%;
+    resize: none;
+}
+.wpcf7-not-valid-tip {
+    color: #dc3232;
+    font-size: 1.4em;
+    font-weight: normal;
+    display: block;
+    margin-top: 15px;
+}
