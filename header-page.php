@@ -103,7 +103,7 @@
 <?php endif; ?>
 <header>
 <div id="header-top">
-<p>高所作業車免許と建築施工管理技士の<br class="br-sp">２つの資格をもつ技術者が空中施工するので、<br class="br-sp"><span>速さ</span>と<span>安心</span>を<span>リーズナブル</span>に叶えます!</p></div>
+<p>高所作業車免許と建築施工管理技士<br class="br-sp">資格をもつ技術者が空中施工するので、<br class="br-sp"><span>速さ</span>と<span>安心</span>を<span>リーズナブル</span>に叶えます!</p></div>
 <div id="header-middle"><div id="sorapro_logo-box">
 	<?php if( is_page('business') ): ?>
 	<a href="/business/">
