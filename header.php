@@ -2,10 +2,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>空プロ 青木鉄工</title>
+<title></title>
+<?php wp_head(); ?>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="width=device-width,initial-scale=1" name="viewport">
-<meta name="description" content="">
 <meta name="keywords" content="">
 <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico">
 <link rel="icon"  href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="images/favicon.ico">

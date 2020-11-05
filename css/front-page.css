@@ -57,6 +57,16 @@ header {
     transform: translate(-10%,-90%);
     animation: cloud 8s linear infinite;
 }
+body.Win.Firefox #sorapro_logo-box h1::before {
+    height: 65%;
+    top: 6%;
+    left: -5%;
+}
+body.Win.Chrome #sorapro_logo-box h1::before {
+    height: 65%;
+    top: 8%;
+    left: -5%;
+}
 body.Win.Ie.PC #sorapro_logo-box h1::before {
     content: "";
     height: 75%;
@@ -495,11 +505,12 @@ main {
     margin-top: 3px;
 }
 .top-menu-list-end {
-    font-size: 13px;
+    font-size: 19px;
     font-weight: bold;
     text-align: center;
     margin-top: 27px;
     line-height: 1.3;
+    color: #005a87;
 }
 .top-menu-list-text span {
     font-size: 12px;
@@ -753,6 +764,18 @@ body.Win.Ie.PC #top-cloud03 {
     text-align: center;
     line-height: 1.4;
     color: #00a0f7;
+}
+body.Safari.PC #koumoku {
+font-size: 23px;
+}
+body.Win.Chrome.PC #koumoku {
+font-size: 23px;
+}
+body.Win.Firefox.PC #koumoku {
+font-size: 23px;
+}
+body.Win.Ie.PC #koumoku {
+font-size: 23px;
 }
 #main-contents-top {
     background-color: #fff;
