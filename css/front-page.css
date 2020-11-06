@@ -495,9 +495,8 @@ main {
 	line-height: 1.6;
 }
 .top-menu-list-recommend {
-    margin-top: 10px;
-    font-size: 13px;
-    font-weight: bold;
+    width: 70%;
+    margin-top: 5px;
 }
 .top-menu-list-recommend-text {
     font-size: 13px;
@@ -646,6 +645,9 @@ header {
     display: block;
     margin: 0 auto 30px;
 }
+.top-menu-list-end {
+    font-size: 31px;
+}
 }
 @media only screen and (min-width: 1024px) {
 header {
@@ -759,23 +761,11 @@ body.Win.Ie.PC #top-cloud03 {
 #koumoku {
     width: 960px;
     padding: 0;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     text-align: center;
     line-height: 1.4;
     color: #00a0f7;
-}
-body.Safari.PC #koumoku {
-font-size: 23px;
-}
-body.Win.Chrome.PC #koumoku {
-font-size: 23px;
-}
-body.Win.Firefox.PC #koumoku {
-font-size: 23px;
-}
-body.Win.Ie.PC #koumoku {
-font-size: 23px;
 }
 #main-contents-top {
     background-color: #fff;
@@ -908,14 +898,23 @@ body.Win.Ie.PC #main-contents-menu::after {
 	line-height: 1.6;
 }
 .top-menu-list-recommend {
-    font-size: 18px;
+    width: 100%;
 }
 .top-menu-list-recommend-text {
     font-size: 17px;
 }
 .top-menu-list-end {
-    font-size: 18px;
+    font-size: 30px;
     margin-top: 30px;
+}
+body.Win.Firefox.PC .top-menu-list-end {
+    font-size: 27px;
+}
+body.Win.Ie.PC .top-menu-list-end  {
+    font-size: 27px;
+}
+body.Win.Chrome.PC .top-menu-list-end  {
+    font-size: 27px;
 }
 .top-menu-list-text span {
     font-size: 14px;
@@ -923,6 +922,15 @@ body.Win.Ie.PC #main-contents-menu::after {
     font-weight: normal;
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	line-height: 1.6;
+}
+body.Win.Firefox.PC .top-menu-list-text span {
+    font-size: 13px;
+}
+body.Win.Ie.PC .top-menu-list-text span {
+    font-size: 13px;
+}
+body.Win.Chrome.PC .top-menu-list-text span {
+    font-size: 13px;
 }
 #main-contents-menu {
     background-color: #82d1ff;
