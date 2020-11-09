@@ -1103,8 +1103,7 @@ h3.sorapro-title {
   align-items: center;
 }
 h4 {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 12px;
 }
 .voice-box {
   display: flex;
@@ -1327,6 +1326,9 @@ h4 {
 h3.sorapro-title {
     background-color: #ffff00;
     color: #0071b2;
+}
+h4 {
+  font-size: 15px;
 }
 #voice p {
     font-size: 18px;

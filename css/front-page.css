@@ -761,7 +761,34 @@ body.Win.Ie.PC #top-cloud03 {
 #koumoku {
     width: 960px;
     padding: 0;
-    font-size: 22px;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.4;
+    color: #00a0f7;
+}
+body.Win.Chrome.PC #koumoku {
+    width: 960px;
+    padding: 0;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.4;
+    color: #00a0f7;
+}
+body.Win.Safari.PC #koumoku {
+    width: 960px;
+    padding: 0;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.4;
+    color: #00a0f7;
+}
+body.Win.Firefox.PC #koumoku {
+    width: 960px;
+    padding: 0;
+    font-size: 21px;
     font-weight: bold;
     text-align: center;
     line-height: 1.4;
