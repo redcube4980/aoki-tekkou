@@ -527,6 +527,84 @@ main {
     display: block;
     margin: 0 auto 30px;
 }
+#card-logo {
+    max-width: 450px;
+	width: 84%;
+    margin: 80px auto 0;
+}
+.logo-text {
+    text-align: center;
+}
+.pay-text {
+    height: 28px;
+}
+.logo-area {
+  margin: 50px auto 0;
+}
+.logo-content01 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.visa {
+  width: 70px;
+  height: auto;
+}
+.Mastercard {
+  width: 80px;
+  height: auto;
+}
+.logo-content02 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.alipay {
+  width: 40px;
+  height: auto;
+}
+.wechat {
+  width: 40px;
+  height: auto;
+}
+.visadebit {
+  width: 80px;
+  height: auto;
+}
+.Mastercard-3 {
+  width: 100px;
+  height: auto;
+}
+.logo-content03 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.jcb {
+  width: 50px;
+  height: auto;
+}
+.amex {
+  width: 35px;
+  height: auto;
+}
+.dinersclub {
+  width: 55px;
+  height: auto;
+}
+.discover {
+  width: 60px;
+  height: auto;
+}
+.ginren {
+  width: 60px;
+  height: auto;
+}
 @media only screen and (min-width: 600px) {
 #header-bttom {
     width: 100%;
@@ -647,6 +725,55 @@ header {
 }
 .top-menu-list-end {
     font-size: 31px;
+}
+#card-logo {
+    width: 500px;
+	max-width: none;
+}
+.logo-content02 {
+    margin-top: 30px;
+}
+.logo-content03 {
+    margin-top: 30px;
+}
+.pay-text {
+    height: 28px;
+}
+.visa {
+  width: 100px;
+}
+.Mastercard {
+  width: 120px;
+}
+.alipay {
+  width: 60px;
+}
+.wechatpay {
+  width: 150px;
+}
+.wechat {
+  width: 70px;
+}
+.visadebit {
+  width: 120px;
+}
+.Mastercard-3 {
+  width: 180px;
+}
+.jcb {
+  width: 70px;
+}
+.amex {
+  width: 50px;
+}
+.dinersclub {
+  width: 70px;
+}
+.discover {
+  width: 80px;
+}
+.ginren {
+  width: 80px;
 }
 }
 @media only screen and (min-width: 1024px) {
@@ -981,6 +1108,60 @@ body.Win.Chrome.PC .top-menu-list-text span {
     padding: 0 15px;
     display: none;
     margin-bottom: 30px;
+}
+.logo-text img {
+  height: 48px;
+}
+.logo-text h2 {
+  font-size: 45px;
+}
+#card-logo h2 {
+  height: 48px;
+}
+#card-logo {
+  margin: 0 auto;
+  position: relative;
+  min-height: 400px;
+  padding-bottom: 120px;
+}
+#card-logo {
+  width: 960px;
+}
+.visa {
+  width: 120px;
+}
+.Mastercard {
+  width: 140px;
+}
+.alipay {
+  width: 80px;
+}
+.wechatpay {
+  width: 150px;
+}
+.wechat {
+  width: 90px;
+}
+.visadebit {
+  width: 150px;
+}
+.Mastercard-3 {
+  width: 250px;
+}
+.jcb {
+  width: 100px;
+}
+.amex {
+  width: 80px;
+}
+.dinersclub {
+  width: 100px;
+}
+.discover {
+  width: 110px;
+}
+.ginren {
+  width: 110px;
 }
 }
 @media only screen and (min-width: 1600px) {
