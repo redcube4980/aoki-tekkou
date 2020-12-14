@@ -10,27 +10,27 @@
 <link rel="icon"  href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="images/favicon.ico">
 <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-precomposed.jpg">
 <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-precomposed.jpg">
-<link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
+<link href="<?php echo get_stylesheet_uri(); ?>?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php if( is_page('business') ): ?>
-<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css" rel="stylesheet">
-<link href="<?php echo get_template_directory_uri(); ?>/css/contact-form7.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/contact-form7.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php elseif( is_page('consumers') ): ?>
-<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css" rel="stylesheet">
-<link href="<?php echo get_template_directory_uri(); ?>/css/contact-form7.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/contact-form7.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php elseif(is_page('company')): ?>
-<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css" rel="stylesheet">
-<link href="<?php echo get_template_directory_uri(); ?>/css/company.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/company.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php elseif(is_page('privacy-policy')): ?>
-<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css" rel="stylesheet">
-<link href="<?php echo get_template_directory_uri(); ?>/css/privacy-policy.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/privacy-policy.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php elseif(is_home()): ?>
-<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css" rel="stylesheet">
-<link href="<?php echo get_template_directory_uri(); ?>/css/index.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/index.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php elseif(is_single()): ?>
-<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css" rel="stylesheet">
-<link href="<?php echo get_template_directory_uri(); ?>/css/single.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/single.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php elseif(is_page()): ?>
-<link href="<?php echo get_template_directory_uri(); ?>/css/page.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/page.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php endif; ?>
 <style rel="stylesheet" type="text/css">
 #wrapper {

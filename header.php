@@ -11,15 +11,15 @@
 <link rel="icon"  href="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" type="images/favicon.ico">
 <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-precomposed.jpg">
 <link rel="icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-precomposed.jpg">
-<link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
+<link href="<?php echo get_stylesheet_uri(); ?>?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php if( is_front_page() ): ?>
-<link href="<?php echo get_template_directory_uri(); ?>/css/swiper.min.css" rel="stylesheet">
-<link href="<?php echo get_template_directory_uri(); ?>/css/front-page.css" rel="stylesheet">
-<link href="<?php echo get_template_directory_uri(); ?>/css/contact-form7.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/swiper.min.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/front-page.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/contact-form7.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php elseif(is_home()): ?>
-<link href="<?php echo get_template_directory_uri(); ?>/css/front-page.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/front-page.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php elseif(is_page()): ?>
-<link href="<?php echo get_template_directory_uri(); ?>/css/front-page.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/front-page.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php endif; ?>
 <style rel="stylesheet" type="text/css">
 #wrapper {

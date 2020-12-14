@@ -550,6 +550,7 @@ body.Win.Ie.PC #main-contents-menu::after {
     margin-top: 10px;
     font-size: 13px;
     font-weight: bold;
+	width: 100%;
 }
 .top-menu-list-recommend-text {
     font-size: 13px;
@@ -610,26 +611,34 @@ body.Win.Ie.PC #main-contents-menu::after {
 	max-width: 450px;
 	width: 84%;
 }
-.logo-content01 {
+.logo-content{
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
+.logo-content li {
+	margin: 0 20px 20px
+}
 .visa {
-  width: 70px;
+  width: 57px;
+  height: auto;
+}
+.visadebit {
+  width: 80px;
   height: auto;
 }
 .Mastercard {
-  width: 72px;
+  width: 60px;
   height: auto;
 }
-.logo-content02 {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 15px;
+.Mastercard-3 {
+  width: 100px;
+  height: auto;
+}
+.jcb {
+  width: 50px;
+  height: auto;
 }
 .alipay {
   width: 40px;
@@ -637,25 +646,6 @@ body.Win.Ie.PC #main-contents-menu::after {
 }
 .wechat {
   width: 40px;
-  height: auto;
-}
-.visadebit {
-  width: 80px;
-  height: auto;
-}
-.Mastercard-3 {
-  width: 100px;
-  height: auto;
-}
-.logo-content03 {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 15px;
-}
-.jcb {
-  width: 50px;
   height: auto;
 }
 .amex {
@@ -1019,38 +1009,29 @@ h4 {
 	max-width: none;
 	margin: 80px auto 0;
 }
-.logo-content02 {
-    margin-top: 30px;
-}
-.logo-content03 {
-    margin-top: 30px;
-}
 .pay-text {
-    height: 28px;
+    height: 25px;
 }
 .visa {
-  width: 100px;
-}
-.Mastercard {
-  width: 102px;
-}
-.alipay {
-  width: 60px;
-}
-.wechatpay {
-  width: 150px;
-}
-.wechat {
   width: 70px;
 }
 .visadebit {
-  width: 120px;
+  width: 100px;
+}
+.Mastercard {
+  width: 70px;
 }
 .Mastercard-3 {
-  width: 180px;
+  width: 140px;
 }
 .jcb {
-  width: 70px;
+  width: 60px;
+}
+.alipay {
+  width: 55px;
+}
+.wechat {
+  width: 65px;
 }
 .amex {
   width: 50px;
@@ -1440,35 +1421,35 @@ h4 {
 body.Win.Ie.PC #card-logo::after {
     background-image: url("../images/top/top-menu-after.png");
 }
+.logo-content{
+  justify-content: space-around;
+}
 .logo-text img {
-  height: 48px;
+    height: 30px;
 }
 .logo-area {
   width: 960px;
 }
 .visa {
-  width: 140px;
-}
-.Mastercard {
-  width: 140px;
-}
-.alipay {
-  width: 80px;
-}
-.wechatpay {
-  width: 150px;
-}
-.wechat {
-  width: 90px;
+  width: 106px;
 }
 .visadebit {
   width: 150px;
+}
+.Mastercard {
+  width: 110px;
 }
 .Mastercard-3 {
   width: 250px;
 }
 .jcb {
   width: 100px;
+}
+.alipay {
+  width: 80px;
+}
+.wechat {
+  width: 90px;
 }
 .amex {
   width: 80px;
@@ -1581,7 +1562,10 @@ table {
     margin: 0 0 60px;
 }
 .top-menu-list-end {
-    font-size: 40px;
+    font-size: 37px;
     margin-top: 75px;
+}
+.logo-text img {
+  height: 40px;
 }
 }

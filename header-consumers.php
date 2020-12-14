@@ -11,16 +11,16 @@
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png">
 <link rel="icon" type="image/x-icon" href="apple-touch-icon-precomposed.png">
-<link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet">
+<link href="<?php echo get_stylesheet_uri(); ?>?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php if( is_page('consumers') ): ?>
-<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css" rel="stylesheet">
-<link href="<?php echo get_template_directory_uri(); ?>/css/contact-form7.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/consumers.css?20201211" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/contact-form7.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php elseif(is_home()): ?>
-<link href="<?php echo get_template_directory_uri(); ?>/css/page.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/page.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php elseif(is_page()): ?>
-<link href="<?php echo get_template_directory_uri(); ?>/css/page.css" rel="stylesheet">
+<link href="<?php echo get_template_directory_uri(); ?>/css/page.css?<?php echo date_i18n('Ymd-His'); ?>" rel="stylesheet">
 <?php endif; ?>
-	
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
 <script>
